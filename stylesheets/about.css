@@ -1,0 +1,126 @@
+.about-description {
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.72;
+}
+
+/*partners*/
+.contech {
+    background: url(../images/partners/contech.jpg) no-repeat;
+    background-size: 266.75px;
+    width: 266.75px;
+    height: 111.65625px;
+    margin-top: 33.34375px;
+    display: inline-block;
+}
+
+.logan {
+    background: url(../images/partners/logan.jpg) no-repeat;
+    background-size: 145px;
+    width: 145px;
+    position: relative;
+    left: 50%;
+    margin-left: -72.5px;
+    height: 145px;
+    display: inline-block;
+}
+
+.hobas {
+    background: url(../images/partners/hobas.jpg) no-repeat;
+    background-size: 117.2103918px;
+    width: 117.2103918px;
+    position: relative;
+    left: 50%;
+    margin-left: -58.605196px;
+    height: 145px;
+    display: inline-block;
+}
+
+.carolina-ceramics {
+    background: url(../images/partners/carolina-ceramics.png) no-repeat;
+    background-size: 266.75px;
+    width: 266.75px;
+    height: 104.326819px;
+    margin-top: 40.673181px;
+    display: inline-block;
+
+}
+
+.clay-superior {
+    background: url(../images/partners/clay-superior.png) no-repeat;
+    background-size: 145px;
+    width: 145px;
+    position: relative;
+    left: 50%;
+    margin-left: -60.875px;
+    height: 145px;
+    display: inline-block;
+
+}
+
+.whitacre-greer {
+    background: url(../images/partners/whitacre-greer.jpg) no-repeat;
+    background-size: 191.706731px;
+    width: 191.706731px;
+    margin-left: 37.521635px;
+    height: 145px;
+    display: inline-block;
+
+}
+
+.avanti {
+    background: url(../images/partners/avanti.jpg) no-repeat;
+    background-size: 266.75px;
+    width: 266.75px;
+    height: 94.4295px;
+    margin-top: 25.28525px;
+    display: inline-block;
+
+}
+
+.inserta-tee {
+    background: url(../images/partners/inserta-tee.jpg) no-repeat;
+    background-size: 266.75px;
+    width: 266.75px;
+    height: 97px;
+    margin-top: 24px;
+    display: inline-block;
+
+}
+
+.tensar {
+    background: url(../images/partners/tensar.jpg) no-repeat;
+    background-size: 266.75px;
+    width: 266.75px;
+    height: 145px;
+    display: inline-block;
+
+}
+
+.surface-tech {
+    background: url(../images/partners/surface-tech.png) no-repeat;
+    background-size: 266.75px;
+    width: 266.75px;
+    height: 25.662025px;
+    margin-top: 59.668987px;
+    display: inline-block;
+
+}
+
+@media (min-width: 768px) {
+.heading-about {
+    font-family: 'Montserrat',Helvetica,Arial,sans-serif;
+    font-size: 48px;
+    color: #fff;
+    padding-top: 64px;
+}
+.spacing.splash {
+    padding: 70px 40px;
+}
+}
+
+@media (min-width: 1025px) {
+.spacing.splash {
+    padding: 100px 96px 80px;
+}
+}

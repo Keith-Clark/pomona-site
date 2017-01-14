@@ -1,0 +1,78 @@
+.header-wrap-about {
+    transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    background: #242424;
+    color: #fff;
+    top: 0;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list.border li {
+    border-bottom: 1px #eee solid;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+@media (min-width: 768px) {
+.description-contact-us {
+    font-family: Helvetica;
+    font-size: 30px;
+    color: #fff;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    line-height: 1.2em;
+    position: relative;
+    padding-right: 15px;
+    width: 66.66%;
+    box-sizing: border-box;
+}
+.section-heading {
+    padding-bottom: 20px;
+}
+.google-map-contact-us {
+    background: url(https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.160984538909!2d-…4611+Dundas+Dr%2C+Greensboro%2C+NC+27407!5e0!3m2!1sen!2sus!4v1469642500737) no-repeat;
+    background-size: 117.2103918px;
+    position: relative;
+    padding-top: 40px;
+    display: inline-block;
+}
+}
+
+.section-heading {
+    font-weight: 300;
+    padding: 0 15px 10px 15px;
+    border-bottom: 1px #e1e1e1 solid;
+    letter-spacing: 1px;
+    font-size: 24px;
+    line-height: 1.42857143;
+    margin: 0;
+}
+
+.table-striped {
+    width: 100%;
+}
+
+.table-striped>tbody>tr>td {
+    padding: 5px;
+}
+
+
+@media (min-width: 769px) {
+.header-wrap-about {
+    height: 415px;
+}
+}
+
+@media (min-width: 1025px) {
+.header-wrap-about {
+    height: 355px;
+}
+}

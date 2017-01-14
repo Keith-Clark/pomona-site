@@ -1,0 +1,246 @@
+/*homepage section*/
+.homepage-section {
+    display: inline-block;
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.homepage-section.striped:nth-child(odd) {
+  background: #f5f5f5;
+}
+
+.homepage-section h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0 0 60px;
+  color: #4d4d4d;
+}
+
+.homepage-section.striped:nth-child(odd) h1 {
+  color: #2c3e50;
+}
+
+/*process*/
+
+.process {
+  text-align: center;
+}
+
+.homepage-badge {
+    display: inline-block;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.homepage-badge.design {
+    background: #398dcc;
+    padding: 56.75px 50px;
+}
+
+.homepage-badge.fabrication {
+    background: #1aa049;
+}
+
+.homepage-badge.installation {
+    background: #dc9327;
+    padding: 56.75px 50px;
+}
+
+.process h2 {
+    margin-bottom: 5px;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.process p {
+    color: #7f8c8d;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+}
+
+/*projects*/
+.project-post {
+    display: inline-block;
+    border-top: 1px solid #ededed;
+    margin-bottom: 35px;
+    padding-top: 25px;
+}
+
+.project-post:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.project-title {
+    display: block;
+    font-size: 2.2em;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    color: #4d4d4d;
+}
+
+.project-status {
+    color: #7a7a7a;
+}
+
+.project-description {
+    margin-top: 5px;
+    font-size: 1.3em;
+}
+
+.see-all-projects {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.see-all-link {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    padding: 6px 20px;
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 165px;
+    margin: 0 auto;
+    color: #7a7a7a;
+    transition: color 0.25s ease-in-out;
+    -webkit-transition: color 0.25s ease-in-out;
+    -moz-transition: color 0.25s ease-in-out;
+}
+
+.see-all-link:hover, .project-title:hover {
+    color: #242424;
+    text-decoration: none;
+}
+
+.see-all-link + hr {
+    position: relative;
+    top: -39px;
+    z-index: 0;
+    opacity: 0.3;
+    border-top: 1px solid #4d4d4d;
+}
+
+
+/*solutions*/
+
+.all-solutions a:hover {
+  text-decoration: none;
+}
+
+.solution {
+    display: block;
+    width: 100%;
+    height: 248px;
+    max-width: 349px;
+    max-height: 262px;
+    border-radius: 4px;
+}
+
+.solution.AceFiberAsphalt {
+    background: url(../images/solutions/AceFiberAsphalt.jpg) top center no-repeat;
+}
+
+.solution.AluminumHeadwalls {
+    background: url(../images/solutions/AluminumHeadwalls.jpeg) top center no-repeat;
+}
+
+.solution.BottomlessStructures {
+    background: url(../images/solutions/BottomlessStructures.jpg) top center no-repeat;
+}
+
+.solution.Bridges {
+    background: url(../images/solutions/Bridges.jpg) top center no-repeat;
+}
+
+.solution.Drainage {
+    background: url(../images/solutions/Drainage.jpg) top center no-repeat;
+}
+
+.solution.FinishingProducts {
+    background: url(../images/solutions/FinishingProducts.jpg) top center no-repeat;
+}
+
+/*missing Geogrid, Masonry, Sanitary Sewer Pipe*/
+
+.solution.Sliplining {
+    background: url(../images/solutions/Sliplining.jpg) top center no-repeat;
+}
+
+.solution.StormwaterManagement {
+    background: url(../images/solutions/StormwaterManagement.jpg) top center no-repeat;
+}
+
+.solution.Tunnels {
+    background: url(../images/solutions/Tunnels.jpg) top center no-repeat;
+}
+
+.solution.WaterControlStructures {
+    background: url(../images/solutions/WaterControlStructures.jpg) top center no-repeat;
+}
+
+.solution h2 {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    top: 210px;
+    background: #fff;
+    opacity: 0.7;
+    font-size: 14px;
+    color: #4d4d4d;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    transition: color 0.25s ease-in-out;
+    -webkit-transition: color 0.25s ease-in-out;
+    -moz-transition: color 0.25s ease-in-out;
+}
+
+.solution h2:hover {
+  color:#000;
+}
+
+/*media queries*/
+@media (max-width: 767px) {
+  .process > div:not(:first-child) {
+      margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+.project-post-item {
+    width: 100%;
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.project-title h2 {
+	font-size: 26px;
+}
+.project-description {
+  font-size: 1.2em;
+}
+.hp-see-all-projects-link {
+	font-size: 1.1em;
+}
+}
+
+@media (min-width: 768px) {
+.process div:nth-child(2) .homepage-badge {
+    max-width: 75%;
+}
+
+.solution h2 {
+    font-size: 15px;
+}
+
+.project-title h2 {
+    margin-top: 7px;
+}
+}
