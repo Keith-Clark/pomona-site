@@ -1,9 +1,3 @@
-.about-description {
-    font-size: 16px;
-    color: #7f8c8d;
-    line-height: 1.72;
-}
-
 /*partners*/
 .contech {
     background: url(../images/partners/contech.jpg) no-repeat;
@@ -104,23 +98,4 @@
     height: 25.662025px;
     margin-top: 59.668987px;
     display: inline-block;
-
-}
-
-@media (min-width: 768px) {
-.heading-about {
-    font-family: 'Montserrat',Helvetica,Arial,sans-serif;
-    font-size: 48px;
-    color: #fff;
-    padding-top: 64px;
-}
-.spacing.splash {
-    padding: 70px 40px;
-}
-}
-
-@media (min-width: 1025px) {
-.spacing.splash {
-    padding: 100px 96px 80px;
-}
 }
