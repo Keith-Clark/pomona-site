@@ -14,6 +14,12 @@ body, html {
   box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
 }
 
+.paragraph-main {
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.72;
+}
+
 /*hero*/
 .hero {
     color: #fff;
@@ -32,9 +38,6 @@ body, html {
 .icon-logo {
   padding: 0;
   opacity: 0.6;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity 0.25s ease-in-out;
-  transition: opacity .25s ease;
 }
 
 .icon-logo:hover {
@@ -134,11 +137,11 @@ body, html {
 /*footer*/
 footer {
     background-color: #242424;
-    padding-bottom: 18px;
+    padding: 40px 0;
     line-height: 24px;
 }
 
-.footer-list {
+footer ul {
     position: relative;
     list-style: none;
     text-align: center;
@@ -147,7 +150,7 @@ footer {
     margin: auto;
 }
 
-.footer-list-item {
+footer ul li {
     display: inline-block;
     margin-right: 15px;
     font-size: 16px;
@@ -155,18 +158,25 @@ footer {
     line-height: 30px;
 }
 
-.footer-list-link:link, .footer-list-link:visited, .footer-list-link:active {
+footer ul li a, footer ul li a:visited, footer ul li a:active {
     text-decoration: none;
     color: #ecf0f1;
     opacity: 0.5;
 }
 
-.footer-list-link:hover {
-    opacity: 1;
+footer ul li a {
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity 0.25s ease-in-out;
+  transition: opacity .25s ease;
+}
+
+footer ul li a:hover {
+    opacity: 0.8;
+    color: #ecf0f1;
     text-decoration: underline;
 }
 
-.footer-list-text {
+footer ul:last-child li {
     color: #ecf0f1;
     opacity: 0.5;
 }
@@ -181,7 +191,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
 .hero {
-    background: radial-gradient( rgba(36, 36, 36, 0.9), rgba(36, 36, 36, 1) ), url(../images/HeroMedium.jpg) center top no-repeat;
+    background: radial-gradient( rgba(36, 36, 36, 0.9), rgba(36, 36, 36, 1) ), url(../images/HeroMedium.jpg) top center fixed no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -203,7 +213,7 @@ footer {
 
 @media (min-width: 769px) {
 .hero {
-    background: radial-gradient( rgba(36, 36, 36, 0.9), rgba(36, 36, 36, 1) ), url(../images/Hero.jpg) center top no-repeat;
+    background: radial-gradient( rgba(36, 36, 36, 0.9), rgba(36, 36, 36, 1) ), url(../images/Hero.jpg) top center fixed no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
