@@ -1,0 +1,64 @@
+/*projects*/
+.project-post {
+    display: inline-block;
+    border-top: 1px solid #ededed;
+    margin-bottom: 35px;
+    padding-top: 25px;
+}
+
+.project-post:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.project-title {
+    display: block;
+    font-size: 2.2em;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    color: #4d4d4d;
+}
+
+.project-status {
+    color: #7a7a7a;
+}
+
+.project-description {
+    margin-top: 5px;
+    font-size: 1.3em;
+}
+
+.see-all-projects {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.see-all-link {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    padding: 6px 20px;
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 165px;
+    margin: 0 auto;
+    color: #7a7a7a;
+    transition: color 0.25s ease-in-out;
+    -webkit-transition: color 0.25s ease-in-out;
+    -moz-transition: color 0.25s ease-in-out;
+}
+
+.see-all-link:hover, .project-title:hover {
+    color: #242424;
+    text-decoration: none;
+}
+
+.see-all-link + hr {
+    position: relative;
+    top: -39px;
+    z-index: 0;
+    opacity: 0.3;
+    border-top: 1px solid #4d4d4d;
+}
