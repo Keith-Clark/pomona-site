@@ -1,8 +1,8 @@
 /*nav*/
 .nav-mobile.active {
-    transform: translateX(0);
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
+    transform: translateX(-230px);
+    -webkit-transform: translateX(-230px);
+    -ms-transform: translateX(-230px);
 }
 
 .nav-mobile {
@@ -13,9 +13,11 @@
     position: fixed;
     padding: 15px;
     overflow-y: scroll;
-    right: 0;
+    right: -230px;
     top: 0;
-    transform: translateX(230px);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
     z-index: 10000;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -83,8 +85,8 @@
     color: #fff;
     opacity: 0.6;
     transition: opacity 0.25s ease-in-out;
-    -webkit-transition: 0.25s ease-in-out;
-    -moz-transition: 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
     letter-spacing: 1px;
     font-size: 13px;
     font-weight: 800;
