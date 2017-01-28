@@ -9,6 +9,14 @@ body, html {
     overflow-x: hidden;
 }
 
+.hero-downloads {
+    background: rgba(36, 36, 36, 0.9) center fixed no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-position: 25% center;
+}
+
 .has-shadow {
   border: 1px solid #d2d2d2;
   box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
