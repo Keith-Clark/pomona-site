@@ -15,6 +15,11 @@ body, html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-position: 25% center;
+    color: #fff;
+    top: 0;
+    width: 100%;
+    min-height: 60vh;
+    padding-top: 70px;
 }
 
 .has-shadow {
@@ -41,13 +46,6 @@ body, html {
 }
 
 /*hero*/
-.hero {
-    color: #fff;
-    top: 0;
-    width: 100%;
-    min-height: 60vh;
-    padding-top: 70px;
-}
 
 #logo {
     display: inline-block;
