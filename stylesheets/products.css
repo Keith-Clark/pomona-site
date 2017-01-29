@@ -18,7 +18,6 @@
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/solutions/AceFiberAsphalt.jpg) center no-repeat;
     padding: 10px;
     background-size: cover;
-    border-top: 1px solid #e1e1e1;
     min-height: 200px;
 }
 
