@@ -3,8 +3,8 @@
   background: #fff;
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
-  -webkit-transition: all .33s cubic-bezier(0.694,0.0482,0.335,1);
-  transition: all .33s cubic-bezier(0.694,0.0482,0.335,1);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 .loaded.nav-visible main {
