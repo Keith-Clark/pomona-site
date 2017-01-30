@@ -1,11 +1,23 @@
 /*nav*/
-.nav-mobile.active {
-    transform: translateX(-230px);
-    -webkit-transform: translateX(-230px);
-    -ms-transform: translateX(-230px);
-    transition: transform 0.3s ease;
-    -webkit-transition: transform 0.3s ease;
-    -moz-transition: transform 0.3s ease;
+.loaded main {
+  background: #fff;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transition: all .33s cubic-bezier(0.694,0.0482,0.335,1);
+  transition: all .33s cubic-bezier(0.694,0.0482,0.335,1);
+}
+
+.loaded.nav-visible main {
+  -webkit-transform: translate3d(-230px,0,0);
+  transform: translate3d(-230px,0,0);
+}
+
+.mobile-menu {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  height: 36px;
 }
 
 .nav-mobile {
@@ -14,31 +26,11 @@
     background: #222527;
     color: #636363;
     position: fixed;
-    padding: 15px;
-    overflow-y: scroll;
-    right: -230px;
+    padding: 25px 15px;
+    overflow-y: auto;
+    right: 0;
     top: 0;
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-    z-index: 10000;
-    transition: transform 0.3s ease;
-    -webkit-transition: transform 0.3s ease;
-    -moz-transition: transform 0.3s ease;
-}
-
-.nav-mobile-close {
-  padding: 5px 7px 14px 7px;
-  font-size: 26px;
-  line-height: 13px;
-  border-radius: 3px;
-  display: block;
-  height: 30px;
-  overflow: hidden;
-  border: 1px #636363 solid;
-  vertical-align: top;
-  background: transparent;
-  font-weight: 100;
+    z-index: 0;
 }
 
 .nav-mobile h1 {
@@ -55,7 +47,7 @@
 }
 
 .nav-section {
-  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .nav-section h3 {
@@ -80,10 +72,9 @@
 }
 
 @media (min-width: 992px) {
-.nav-mobile.active {
-  transform: translateX(230px);
-  -webkit-transform: translateX(230px);
-  -ms-transform: translateX(230px);
+.loaded.nav-visible main {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 }
 .desktop-menu {
     float: right;
