@@ -3,8 +3,8 @@ $(document).ready(function() {
 		$('.loaded').toggleClass('nav-visible');
 	});
   var action = 1;
-  $('.mobile-menu').on("click", viewSomething);
-  function viewSomething() {
+  $('.mobile-menu').on("click", navPullout);
+  function navPullout() {
     if ( action == 1 ) {
         $('.nav-mobile').removeClass('collapse');
         action = 2;
