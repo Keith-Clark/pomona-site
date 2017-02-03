@@ -1,2 +1,2 @@
 # pomona-site
-Pomona website.
+Pomona Pipe Products website.
