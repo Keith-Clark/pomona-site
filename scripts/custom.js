@@ -1,3 +1,4 @@
+/*mobile nav menu*/
 $(document).ready(function() {
 	$('.mobile-menu').on('click', function(e) {
 		$('.loaded').toggleClass('nav-visible');
@@ -15,4 +16,11 @@ $(document).ready(function() {
         action = 1;
     }
   }
+});
+/*mobile touch hover*/
+$(document).ready(function() {
+    $('.icon-logo').bind('touchstart touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('.icon-logo:hover');
+    });
 });
