@@ -18,6 +18,7 @@
   outline: none;
   background: transparent;
   height: 36px;
+  opacity: 0.6;
 }
 
 .nav-mobile {
@@ -72,10 +73,6 @@
 }
 
 @media (min-width: 992px) {
-.loaded.nav-visible main {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
 .desktop-menu {
     float: right;
     padding-top: 30px;
