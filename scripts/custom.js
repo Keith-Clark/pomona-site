@@ -32,8 +32,8 @@ $(document).ready(function() {
 });
 /*mobile touch hover*/
 $(document).ready(function() {
-    $('.icon-logo').bind('touchstart touchend', function(e) {
+    $('.logo').bind('touchstart touchend', function(e) {
         e.preventDefault();
-        $(this).toggleClass('.icon-logo:hover');
+        $(this).toggleClass('.logo:hover');
     });
 });
