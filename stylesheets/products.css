@@ -1,6 +1,7 @@
 /*products*/
 
 .det-right {
+    display: block;
     margin-bottom: 5px;
     padding: 20px 25px;
     box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);

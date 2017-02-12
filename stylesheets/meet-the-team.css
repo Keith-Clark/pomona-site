@@ -1,13 +1,4 @@
-
-body {
-  color: #4d4d4d;
-  font-size: 14px
-  font-family: Helvetica,Arial,sans-serif;
-  -webkit-font-smoothing: antialiased;
-  line-height: 1.42857143;
- }
-
- .icon-lg {
+.icon-lg {
      font-size: 100px;
      color: #7a7a7a;
  }
