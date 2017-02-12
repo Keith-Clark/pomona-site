@@ -10,7 +10,7 @@ body, html {
 }
 
 .hero-downloads {
-    background: rgba(36, 36, 36, 0.9) center fixed no-repeat;
+    background: rgba(36, 36, 36, 1) center fixed no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -253,7 +253,7 @@ footer ul li a:hover {
 
 @media only screen and (max-width: 768px) {
 .hero {
-    background: radial-gradient( rgba(36, 36, 36, 0.9), rgba(36, 36, 36, 1) ), url(../images/HeroMedium.jpg) top center fixed no-repeat;
+    background: linear-gradient( rgba(36, 36, 36, 1), rgba(36, 36, 36, 1) ), url(#) top center fixed no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -275,7 +275,7 @@ footer ul li a:hover {
 
 @media (min-width: 769px) {
 .hero {
-    background: radial-gradient( rgba(36, 36, 36, 0.9), rgba(36, 36, 36, 1) ), url(../images/Hero.jpg) top center fixed no-repeat;
+    background: linear-gradient( rgba(36, 36, 36, 1), rgba(36, 36, 36, 1) ), url(#) top center fixed no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
