@@ -250,6 +250,23 @@ footer ul li a:hover {
 
 
 /*media queries*/
+@media (max-width: 767px) {
+  .footer-heading, .footer-heading:hover {
+    margin-bottom: 0;
+  }
+  .footer-heading h6 {
+    margin-top: 0;
+    line-height: 30px;
+    font-size: 16px;
+    color: #ecf0f1;
+    opacity: 0.5;
+  }
+  .logo {
+    max-width: 200px;
+    margin-top: 5px;
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
 .hero {
