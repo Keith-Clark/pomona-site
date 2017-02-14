@@ -43,7 +43,7 @@
 
 /*solutions*/
 
-.all-solutions a:hover {
+.all-solutions a:hover, .all-solutions a:focus, .all-solutions a:active, .all-solutions a:visited {
   text-decoration: none;
 }
 
@@ -114,7 +114,7 @@
     -webkit-transition: color 0.25s ease-in-out;
 }
 
-.solution h2:hover {
+.solution h2:hover, .solution h2:focus, .solution h2:active {
   color:#000;
 }
 

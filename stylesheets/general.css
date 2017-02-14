@@ -63,7 +63,7 @@ body, html {
   backface-visibility: hidden;
 }
 
-.logo:hover {
+.logo:hover, .logo:focus, .logo:active {
 	opacity: 1;
 }
 
@@ -161,8 +161,7 @@ body, html {
   right: 0;
   background: transparent;
 }
-.carousel-control:hover,
-.carousel-control:focus {
+.carousel-control:hover, .carousel-control:focus, .carousel-control:active {
   color: #333;
   opacity: 1;
 }
@@ -193,11 +192,16 @@ footer {
     line-height: 24px;
 }
 
-.footer-heading, .footer-heading:hover {
+.footer-heading, .footer-heading:visited {
     color: #fff;
     font-size: 18px;
     margin: 0 0 20px;
     display: block;
+    text-decoration: none;
+}
+
+.footer-heading:hover, .footer-heading:focus, .footer-heading:active {
+    text-decoration: underline;
 }
 
 .footer-heading h6 {
@@ -221,12 +225,15 @@ footer ul li a, footer ul li a:visited, footer ul li a:active {
     opacity: 0.5;
 }
 
-footer ul li a {
+footer ul li a, footer ul li a:visited  {
   -webkit-transition: opacity .25s ease;
   transition: opacity .25s ease;
+  opacity: 0.5;
+  color: #ecf0f1;
+  text-decoration: none;
 }
 
-footer ul li a:hover {
+footer ul li a:hover, footer ul li a:focus, footer ul li a:active {
     opacity: 0.8;
     color: #ecf0f1;
     text-decoration: underline;
@@ -237,21 +244,23 @@ footer ul li a:hover {
     margin-top: 20px;
 }
 
-.footer-legal {
+.footer-legal, .footer-legal:visited {
     margin-right: 0.7em;
     color: #ecf0f1;
     opacity: 0.5;
+    text-decoration: none;
 }
 
-.footer-legal:hover {
+.footer-legal:hover, .footer-legal:focus, .footer-legal:active {
     color: #ecf0f1;
     opacity: 0.8;
+    text-decoration: underline;
 }
 
 
 /*media queries*/
 @media (max-width: 767px) {
-  .footer-heading, .footer-heading:hover {
+  .footer-heading, .footer-heading:hover, .footer-heading.focus, .footer-heading:active {
     margin-bottom: 0;
   }
   .footer-heading h6 {

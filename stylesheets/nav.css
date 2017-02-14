@@ -52,8 +52,14 @@
   margin-bottom: 25px;
 }
 
-.nav-section-heading, .nav-section-heading:hover {
+.nav-section-heading, .nav-section-heading:visited {
   color: #85888d;
+  text-decoration: none;
+}
+
+.nav-section-heading:hover, .nav-section-heading:focus, .nav-section-heading:active {
+  color: #85888d;
+  text-decoration: underline;
 }
 
 .nav-section-heading h3 {
@@ -86,7 +92,7 @@
 .dropdown {
   display: inline-block;
 }
-.dropdown > a {
+.dropdown > a, .dropdown > a:visited {
   display: block;
   color: #fff;
   opacity: 0.6;
@@ -98,7 +104,7 @@
   font-weight: 800;
   padding: 10px 15px 17px;
 }
-.dropdown > a:hover {
+.dropdown > a:hover , .dropdown > a:active {
   opacity: 1;
   color: #fff;
   text-decoration: none;
@@ -148,20 +154,22 @@
   border-color: #fff transparent;
 }
 /*dropdown hover trigger*/
-.dropdown:hover .dropdown-options {
+.dropdown:hover .dropdown-options, .dropdown:focus .dropdown-options {
   opacity: 1;
   -webkit-transform: perspective(10em) rotateX(0deg) scale(0.92);
   transform: perspective(10em) rotateX(0deg) scale(0.92);
   pointer-events: auto;
 }
 /*dropdown hover links*/
-.dropdown-options a {
+.dropdown-options a, .dropdown-options a:visited {
   background: #fff;
   color: #636363;
+  text-decoration: none;
   padding: 12px 16px;
   display: block;
 }
-.dropdown-options a:hover {
+.dropdown-options a:hover, .dropdown-options a:focus, .dropdown-options a:active {
   background: #f1f1f1;
+  text-decoration: underline;
 }
 }
